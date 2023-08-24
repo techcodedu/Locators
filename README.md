@@ -1,6 +1,5 @@
-Of course! Let's design an exercise focused on using the different locators available in Selenium. 
 
-### Exercise:
+### Exercise 1:
 
 **Objective**: Create a program to interact with the following HTML page and demonstrate the usage of various locators:
 
@@ -40,4 +39,30 @@ Of course! Let's design an exercise focused on using the different locators avai
 1. Initialize the WebDriver and navigate to the provided HTML page.
 2. Perform the tasks using the appropriate locators as mentioned.
 3. Close the WebDriver after all tasks are completed.
+
+
+### Exercise 2:
+
+# Google Locator Exercise
+
+This exercise demonstrates the usage of different locators in Selenium WebDriver to interact with Google's homepage.
+
+## Tasks
+
+1. Navigate to `https://www.google.com/`.
+2. Locate the Google search box by its `name` attribute and enter "selenium".
+3. Find the Google "Search" button using its `name` attribute and click it.
+4. Retrieve and print the text of the first search result using its `tag name`.
+5. Click on the "Images" link above the search results using `link text`.
+6. Locate the Google Apps (grid) icon near the top right corner using its `class name` and click it.
+7. Locate the "YouTube" link inside the Google Apps dropdown using `partial link text` and print the URL (without clicking).
+8. Use an `XPath` expression to find the "Sign In" button at the top right and click it (if available).
+9. Locate the "Email or phone" input field on the Sign In page using `CSS selector` and enter "example@gmail.com".
+
+## Prerequisites
+
+1. Install [ChromeDriver](https://sites.google.com/chromium.org/driver/) and make sure its path is set correctly in the code.
+2. Java development environment set up.
+
+
 
